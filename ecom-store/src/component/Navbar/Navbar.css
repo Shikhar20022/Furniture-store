@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+.logo {
+  color: black;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.navlinks {
+  flex: 1;
+  padding: 0rem;
+  margin-right: 5rem;
+}
+
+.navlinks ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 4rem;
+
+}
+.navlinks ul li {
+  font-family:" poppins", sans-serif;
+  font-weight: 400;
+
+}
+.navlinks ul li:hover{
+  color: red;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 3rem;
+  gap: 1rem;
+  size: 20px;
+}
