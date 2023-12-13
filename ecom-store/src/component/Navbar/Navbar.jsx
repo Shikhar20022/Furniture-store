@@ -1,13 +1,13 @@
 import React from "react";
 import { SearchNormal1, Bag2, UserSquare } from "iconsax-react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar">
-  
       <div className="logo">
-        <h3>Furniture</h3> 
+        <h3>Furniture</h3>
       </div>
       <div className="navlinks">
         <ul>
